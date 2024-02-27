@@ -90,12 +90,12 @@ const RegisterForm = () => {
               Submit
             </button>
           </div>
-          <div className="text-[.9rem] text-center">
+          {/* <div className="text-[.9rem] text-center">
             Don't have an account?{" "}
             <Link to="/signup" className="underline">
               Sign Up
             </Link>
-          </div>
+          </div> */}
         </form>
       </div>
     </div>

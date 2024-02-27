@@ -12,7 +12,7 @@ function Signin() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if(email.length !== 0 && password.length !== 0){
-        navigate("/home")
+        navigate("/dashboard")
     }
   }
 
